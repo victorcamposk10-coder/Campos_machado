@@ -1,9 +1,106 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   <url>
-      <loc>https://www.camposmachado.com.br/</loc>
-      <lastmod>2026-02-28</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>1.0</priority>
-   </url>
-</urlset>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Campos & Machado | Clínica Odontológica</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+--bege:#f5efe6;
+--bordo:#6b1f2b;
+--azul:#1f3a5f;
+--preto:#111111;
+--cinza:#555555;
+}
+*{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth;}
+body{font-family:'Inter',sans-serif;background:var(--bege);color:var(--preto);}
+header{background:var(--preto);color:white;padding:60px 20px;text-align:center;}
+header h1{font-family:'Playfair Display',serif;font-size:44px;letter-spacing:1px;}
+header p{margin-top:10px;color:#ddd;}
+section{padding:100px 10%;opacity:0;transform:translateY(40px);transition:all 0.8s ease;}
+section.visible{opacity:1;transform:translateY(0);}
+.premium{background:white;border-radius:24px;padding:70px;box-shadow:0 30px 80px rgba(0,0,0,0.08);}
+.premium h2{font-family:'Playfair Display',serif;font-size:34px;margin-bottom:30px;color:var(--bordo);}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;}
+.profile-img{width:100%;max-width:420px;border-radius:24px;box-shadow:0 25px 60px rgba(0,0,0,0.15);}
+.button{display:inline-block;padding:16px 32px;background:var(--bordo);color:white;text-decoration:none;border-radius:40px;margin-top:25px;font-weight:500;transition:0.3s;}
+.button:hover{background:var(--azul);} 
+.treatments ul{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:20px;}
+.treatments li{background:var(--bege);padding:20px;border-radius:16px;border-left:5px solid var(--bordo);font-weight:500;color:var(--cinza);}
+footer{text-align:center;padding:50px 20px;background:var(--preto);color:white;}
+.whatsapp-float{position:fixed;bottom:25px;right:25px;background:#25D366;border-radius:50%;width:65px;height:65px;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 30px rgba(0,0,0,0.3);z-index:1000;}
+.whatsapp-float svg{width:32px;height:32px;fill:white;}
+iframe{border-radius:20px;width:100%;height:350px;border:none;margin-top:30px;}
+@media(max-width:900px){.grid{grid-template-columns:1fr;text-align:center;} .treatments ul{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+<header>
+<h1>Campos & Machado</h1>
+<p>Clínica Odontológica Premium | Campinas - SP</p>
+</header>
+
+<section>
+<div class="premium">
+<h2>Cirurgião-Dentista</h2>
+<div class="grid">
+<div>
+<p>Atendimento personalizado com excelência técnica e abordagem humanizada. Estrutura moderna, conforto e alto padrão em cada detalhe.</p>
+<p style="margin-top:15px;"><strong>Dr. Victor Campos</strong><br>Cirurgião-Dentista<br>CRO: 159354</p>
+<a class="button" href="https://wa.me/5519999999999" target="_blank">Agendar Consulta</a>
+</div>
+<div>
+<img src="dr-victor.jpg" alt="Dr. Victor Campos" class="profile-img">
+</div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="premium treatments">
+<h2>Tratamentos</h2>
+<ul>
+<li>Limpeza</li>
+<li>Cirurgia Oral</li>
+<li>Implantes</li>
+<li>Urgências Odontológicas</li>
+<li>Atendimento 24 horas</li>
+<li>Prótese Dentária</li>
+<li>Reabilitação Oral</li>
+<li>Lentes de Contato Dental</li>
+</ul>
+</div>
+</section>
+
+<section>
+<div class="premium">
+<h2>Localização</h2>
+<p>Rua Frei Manoel da Ressurreição Nº 916<br>2º andar sala 03<br>Campinas - SP</p>
+<iframe src="https://www.google.com/maps?q=Rua+Frei+Manoel+da+Ressurreição+916+Campinas&output=embed"></iframe>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Campos & Machado - Clínica Odontológica Premium</p>
+</footer>
+
+<a href="https://wa.me/5519999999999" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+<svg viewBox="0 0 32 32">
+<path d="M16 .4C7.4.4.4 7.3.4 16c0 2.8.7 5.5 2.1 7.9L0 32l8.3-2.2c2.3 1.3 4.9 2 7.7 2 8.6 0 15.6-6.9 15.6-15.6S24.6.4 16 .4zm0 28.7c-2.4 0-4.8-.7-6.8-1.9l-.5-.3-4.9 1.3 1.3-4.8-.3-.5C3.6 20.9 3 18.5 3 16 3 8.8 8.8 3 16 3s13 5.8 13 13-5.8 13-13 13zm7.2-9.8c-.4-.2-2.3-1.1-2.7-1.2-.4-.2-.6-.2-.9.2-.3.4-1 1.2-1.2 1.4-.2.2-.5.3-.9.1-.4-.2-1.6-.6-3-1.8-1.1-1-1.8-2.2-2-2.6-.2-.4 0-.6.2-.8.2-.2.4-.5.6-.7.2-.2.3-.4.4-.6.1-.2 0-.5 0-.7 0-.2-.9-2.2-1.2-3-.3-.8-.6-.7-.9-.7h-.8c-.3 0-.7.1-1 .5-.3.4-1.3 1.3-1.3 3.1 0 1.8 1.3 3.5 1.5 3.7.2.2 2.5 3.8 6.1 5.3.9.4 1.6.6 2.2.8.9.3 1.7.3 2.4.2.7-.1 2.3-.9 2.6-1.8.3-.9.3-1.6.2-1.8-.1-.2-.3-.3-.7-.5z"/>
+</svg>
+</a>
+
+<script>
+const sections=document.querySelectorAll('section');
+const observer=new IntersectionObserver(entries=>{
+entries.forEach(entry=>{
+if(entry.isIntersecting){entry.target.classList.add('visible');}
+});
+},{threshold:0.2});
+sections.forEach(section=>{observer.observe(section);});
+</script>
+
+</body>
+</html>
+
